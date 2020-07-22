@@ -6,6 +6,7 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * 由{@link ConcurrentPuzzleSolver}使用的携带结果的闭锁
+ * ???
  * @Author lzz
  */
 public class ValueLatch<T> {
