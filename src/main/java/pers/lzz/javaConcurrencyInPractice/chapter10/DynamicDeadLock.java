@@ -90,6 +90,12 @@ class Account {
 
 class DollarAmount implements Comparator<DollarAmount> {
 
+    public DollarAmount() {
+    }
+
+    public DollarAmount(int i) {
+    }
+
     //a negative integer, zero, or a positive integer as the first argument
     // is less than, equal to, or greater than the second.
     @Override
